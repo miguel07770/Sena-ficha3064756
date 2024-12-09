@@ -1,0 +1,17 @@
+arreglo [10] de cadena [15] kiko
+arreglo [10] de entero numero
+entero descanso,fila,columna,temporal
+inicio
+	escriba " ingrese los elementos numericos del arreglo "
+	llamar nueva_linea
+	para descanso<-1 hasta 10 haga
+		llamar nueva_linea
+		escriba " ingrese el numero para la posicion[", descanso ,"] "
+		lea numero [descanso]
+	fin para
+	llamar nueva_linea
+	para descanso<-1 hasta 10 haga
+		llamar nueva_linea
+		escriba " en la posicion [", descanso ,"]usted ingreso el elemento ", numero[descanso]
+	fin para
+fin

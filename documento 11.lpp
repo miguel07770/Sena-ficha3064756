@@ -1,0 +1,22 @@
+arreglo [7] de cadena [8]  gallina
+arreglo [7] de cadena [12] pollos
+arreglo [2] de entero kiko
+entero numero
+inicio
+	gallina[2]<-"kiko"
+	pollos[3]<-"5"
+	pollos[1]<-"yo"
+	pollos[2]<-"tu"
+	pollos[4]<-"8"
+	pollos[5]<-"88"
+	pollos[6]<-"59"
+	kiko[1]<-59
+	escriba "inprecion del contenido del arreglo pollos"
+	llamar nueva_linea
+	para numero<-1 hasta 7 haga
+		llamar nueva_linea
+		escriba "en la posicion [", numero ,"] contiene ",pollos [numero]
+		llamar nueva_linea
+		escriba "la pocision [", numero ,"] contiene ", kiko [numero]
+	fin para
+fin

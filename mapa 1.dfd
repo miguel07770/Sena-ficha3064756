@@ -1,0 +1,76 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+40
+ "ingresa el numero inicial de la tabla"
+5
+1
+7
+inicial
+4
+1
+38
+ "ingresa el numero final de la tabla"
+5
+1
+4
+fina
+7
+0
+1
+14
+(inicial>fina)
+13
+4
+1
+36
+ " el numero inicial debe ser menor"
+13
+8
+1
+4
+num1
+1
+7
+inicial
+1
+4
+fina
+1
+1
+1
+4
+1
+20
+" tabla del: ", num1
+8
+1
+1
+x
+1
+1
+1
+1
+1
+5
+1
+1
+1
+6
+1
+4
+num2
+6
+num1*x
+4
+1
+32
+num1," por ",x," igual a: ",num2
+10
+10
+1

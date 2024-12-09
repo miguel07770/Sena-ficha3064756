@@ -1,0 +1,21 @@
+//ingreso de 10 ingreso de cadena 
+arreglo[10]de cadena[10] felicidad
+arreglo[10]de caracter[10]tristesa
+arreglo[10]de real[10]enojo
+arreglo[10]de entero[10]miedo
+entero numero
+inicio
+	escriba " ingrese 10 elementos del arreglo de tipo cadena (max 20 letras) "
+	llamar nueva_linea
+	para numero<-1 hasta 10 haga
+		lea felicidad [numero]
+	fin para
+	escriba " ahora ingrese 10 elementos del arreglo de tipo caracter (solo 1 letra)
+	llamar nueva_linea
+	para numero1<- hasta 10 haga
+		lea tristesa [numero]
+	fin para
+	llamar nueva_linea
+	
+	
+		

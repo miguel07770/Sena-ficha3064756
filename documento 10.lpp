@@ -1,0 +1,27 @@
+entero n1,n2,r,p,q
+caracter continuar
+inicio
+	repita
+		p<-1
+		mientras (p<=2) haga
+			escriba " suma: ",p
+			llamar nueva_linea
+			escriba " ingrese el primer numero para la suma "
+			llamar nueva_linea
+			lea n1
+			llamar nueva_linea
+			escriba " ingrese el segundo numero para la suma "
+			llamar nueva_linea
+			lea n2
+			r<-n1+n2
+			escriba "la suma es :", r
+			llamar nueva_linea
+			p<-p+1
+		fin mientras
+		llamar nueva_linea
+			escriba " desea terminar ? ingresa N "
+			lea continuar 
+	hasta (continuar='N')
+fin
+
+           

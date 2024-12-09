@@ -1,0 +1,12 @@
+cadena [20] coco
+entero numero1
+caracter letra
+inicio
+	numero1<-3
+	repita
+		escriba numero1
+		lea coco H
+		lea letra S
+		numero1<-numero1+1
+	hasta((numero1>3)y(letra='S'))
+fin
